@@ -13,7 +13,7 @@
 }
 
 .n2{
-  color: rgb(18, 13, 13);
+  color: rgb(75, 59, 255);
   margin: 30px;
   font-weight: bold;
   font-style: italic;
@@ -26,12 +26,23 @@ li{
   display: inline-block;
 }
 
-nav{
-margin: 2px;
-  border: 2px solid rgb(183, 246, 164);
 
-}
 .nav-link{
   font-size: 20px;
+  color: #972fff;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(123, 0, 255);
+}
+.navbar-brand{
+  color: rgb(203, 188, 251);
+  /* margin-left: 40px; */
+}
+.navbar-brand:hover {
+  color:#eb8d8d;
+  font-size:20px
+} 
 
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: rgb(247, 129, 129);
 }
